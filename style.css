@@ -1,0 +1,101 @@
+h1{
+	text-align: center;
+	font-size:100px;
+	color: #2A688F;
+	font-family: "Snell Roundhand";
+
+}
+
+div.boxes {
+	/*This is the box that the other pages will be linked in*/
+    margin-left:300px;
+    width: 50%;
+    padding: 20px;
+    border:10px solid #2A688F;
+    text-decoration: none;
+    
+}
+
+div.box {
+	text-decoration: none;
+	padding: 10px;
+	border: 10px solid #2A688F;
+	text-align: center;
+	font-family : "Snell Roundhand";
+	color: black;
+
+}
+
+img{
+	margin-left:330px;
+	position: relative;
+	top:30px;
+}
+
+#description{
+	text-align: center;
+	color: #9D668D;
+	font-size: 40px;
+	font-family: "Snell Roundhand";
+
+}
+
+iframe{
+	margin-left: 400px;
+}
+
+#tumblr{
+	text-decoration: none;
+	text-align: center;
+	font-family: "Snell Roundhand";
+	color: #9D668D;
+
+}
+
+body{
+	background-color: #FED9DA;
+}
+
+
+#titles{
+	text-align: center;
+	font-size:90px;
+	color: #2A688F;
+	font-family: "Snell Roundhand";
+}
+
+#subpage_bahamas{
+	text-align: center;
+	font-size: 40px;
+	color: #7F70A1;
+	font-family: "Snell Roundhand";
+}
+
+div.subtext{
+	text-align: center;
+	font-size: 40px;
+	color: #7F70A1;
+	font-family: "Snell Roundhand";
+	position: relative;
+	top: 40px;
+}
+
+#bahamaspicture{
+	margin-left: 450px;
+}
+
+a.Home{
+	font-family:"Snell Roundhand";
+}
+
+
+/*Colors for page #FED9DA light pink background #2A688F deep blue #9D668D deep purple #E79DB4 warmer pink #7F70A1 cooler purple*/
+
+
+
+
+
+
+
+
+
