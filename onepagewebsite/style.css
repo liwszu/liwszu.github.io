@@ -1,0 +1,23 @@
+.title{
+	font-family: Verdana;
+	color: blue;
+}
+
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav ul li{
+	font: italic 20px / 20px Georgia, serif;
+	list-style-type: none;
+	background-color: powderblue;
+	padding: 15px;
+	width:100px;
+
+}
+
+li a{
+	text-decoration: none;
+}
