@@ -9,6 +9,67 @@
 	margin-right: auto;
 }
 
+.container{
+	position: relative;
+	/*relative to its normal position  */
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+}
+
+.image{
+	display: block;
+	width: 200px;
+	height: 200px;
+}
+
+/*what "covers" the image*/
+.overlay{
+	/*positioned relative to the nearest positioned ancestor*/
+	position: absolute;
+	transition: all 0.3s ease;
+	opacity: 0;
+	background-color: powderblue;
+}
+
+.container:hover .overlay{
+	opacity: 1;
+}
+
+/*OVERLAY FADE*/
+
+.overlayFade{
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	/*right click on element >> inspect >> click on backgorund-color >> change opacity*/
+	/*background-color: #9c27b075;*/
+	background-color: powderblue;
+}
+
+
+
+/*text that shows up when you hover over image*/
+.text{
+	color: white;
+	font-family: sans-serif;
+	/*positioned relative to the nearest positioned ancestor*/
+	position: absolute;
+	/*we need the text to be center-aligned*/
+	top: 50%;
+	left: 50%;
+	/*property to move text in the negative direction of x and y*/
+	transform: translate(-50%, -50%);
+	font-size: 20px;
+}
+
+.description{
+	font-family: sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 nav ul li{
 	font: italic 20px / 20px Georgia, serif;
 	list-style-type: none;
