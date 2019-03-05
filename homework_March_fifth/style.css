@@ -1,0 +1,67 @@
+nav{
+	text-align:center;
+	background-color: pink;
+	position: fixed;
+	width: 100%;
+}
+
+.nav-wrapper li{
+	display: inline;
+	padding: 40px;
+}
+
+.nav-wrapper a{
+	color: black;
+	text-decoration: none;
+	font-family: Snell Roundhand;
+	
+}
+
+.nav-wrapper a:hover{
+	background-color: red;
+	color:white;
+
+}
+
+#Indonesia{
+	background-color: lightgrey;
+	height: 500px;
+	padding: 50px 20px;
+	text-align: center;
+	font-family: Snell Roundhand;
+}
+
+#Bali{
+	background-color: lightgrey;
+	height: 500px;
+	text-align: center;
+	font-family: Snell Roundhand;
+}
+
+#Sulawesi{
+	background-color: lightgrey;
+	height: 500px;
+	text-align: center;
+	font-family: Snell Roundhand;
+}
+
+#Borneo{
+	background-color: lightgrey;
+	height: 500px;
+	text-align: center;
+	font-family: Snell Roundhand;
+
+}
+
+#Nusalembongan{
+	background-color: lightgrey;
+	height: 500px;
+	text-align: center;
+	font-family: Snell Roundhand;
+
+}
+
+img{
+	width: 400px;
+	height:400px;
+}
