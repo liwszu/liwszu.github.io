@@ -1,0 +1,17 @@
+.container{
+	background-color: pink;
+}
+
+.text{
+	text-align: center;
+    color: white;
+    font-family: "Snell Roundhand";
+    font-size: 50px;
+}
+
+img{
+	position: relative;
+	width:100%;
+	height: auto;
+	margin-top: 30px;
+}
