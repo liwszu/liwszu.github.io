@@ -1,17 +1,53 @@
-.container{
-	background-color: pink;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: pink;
+  padding: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
-.text{
-	text-align: center;
-    color: white;
-    font-family: "Snell Roundhand";
-    font-size: 50px;
+.grid-container > div {
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 15px;
+  text-align: center;
+  padding: 20px 0;
+  
+}
+
+.header {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.dogs {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.cats {
+  grid-column-start: 3;
+  grid-column-end: 5;
+} 
+
+.footer {
+  grid-column-start: 1;
+  grid-column-end: 5;
 }
 
 img{
-	position: relative;
-	width:100%;
-	height: auto;
-	margin-top: 30px;
+  position: relative;
+  width:100%;
+  height: auto;
+  margin-top: 30px;
 }
+
+.text{
+  text-align: center;
+  color: white;
+  font-family: "Snell Roundhand";
+  font-size: 50px;
+}
+  
