@@ -1,0 +1,77 @@
+.container {
+    background-color: black;
+    height: auto;
+}
+
+.containerr{
+	position: relative;
+	width: 100%;
+	margin-top: 8%;
+}
+
+}
+
+#roomz{
+	background-color: grey;
+	height: auto;
+}
+#white {
+    color: white;
+    text-align: center;
+
+}
+
+.carousel-item {
+	height: 500px;
+	margin: auto;
+}
+
+.carousel-item img{
+	margin: auto;
+	height:500px;
+}
+
+#title_rooms{
+	text-align: center;
+	color: white;
+}
+
+.row{
+	padding: 15px;
+
+}
+
+#sale_pictures{
+	height: auto;
+	width: auto;
+}
+
+#picss .img {
+	position: relative;
+	width:100%;
+	height: auto;
+	margin-top: 30px;
+
+}
+}
+
+.card{
+	margin: auto;
+	width: 18rem;
+	height: 200px;
+}
+
+.card_image{
+	position: relative;
+	width:80%;
+	height: 80%;
+	margin-top: 30px;
+
+}
+
+.card:hover{
+	margin-right: 30px;
+	box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 75);
+}
+
+
