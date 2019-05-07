@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="quiz_style.css">
+
+    <title>Quiz</title>
+   
+</head>
+
+<body>
+ <!-- My nav bar that links to the other pages styled in css to get rid of the bullets and change color and font -->
+<div class="nav">
+  <a href="index.html">Home</a>
+  <a href="explore.html">Explore</a>
+  <a href="connect.html">Connect</a>
+</div>
+	
+<!-- <h2>Location Matching</h2> -->
+<h4>Select the button that is relevant to you.</h4>
+<h4>We will reccomend locations based on your answers!</h4>
+
+<br><br>
+<!-- Code outline from W3 Schools https://www.w3schools.com/js/tryit.asp?filename=try_dom_select_disabled-->
+<h6>What time of day are you making plans for?</h6>
+<br>
+
+<!-- <form class= "formStuff">
+<select id="mySelect"> -->
+<div class="button-container">
+  <button id = "one" class="1-button" onclick="chooseName()">Morning</button> <br>
+  <button id = "two" class="2-button" onclick="chooseName()">Afternoon</button> <br>
+  <button id = "three" class="3-button" onclick="chooseName()">Evening</button> <br>
+  <button id = "four" class="4-button" onclick="chooseName()">Night</button> <br><br>
+  <img id="day_picture" class="jspicture" src="js1.jpeg" alt="place holder" />
+  <p id="js_1"></p>
+</div>
+
+
+
+<h6>Would you want to eat?</h6>
+<br>
+
+<div class="button-container">
+  <button id="one1"class="a-button">Obviously</button> <br>
+  <button id="two2" class="b-button">If there's food then I might get something</button> <br>
+  <button id="three3" class="c-button">No I already ate</button> <br><br>
+  <img id="food_picture" class="jspicture" src="js3.jpeg" alt="place holder" />
+  <p id="js_2"></p>
+</div>
+
+
+<h6>How much physical activity would you like?</h6>
+<br>
+
+<div class="button-container">
+  <button id="one_1" class="one_button">The more the better</button> <br>
+  <button id="two_2" class="two_button">I don't mind dancing or walking around</button> <br>
+  <button id="three_3" class="three_button">I'd rather not move too much if I don't have to</button> <br>
+  <button id="four_4" class="four_button">I want to sit and not move</button> <br><br>
+  <img id="energy_picture" class="jspicture" src="js2.jpeg" alt="place holder" />
+  <p id="js_3"></p>
+</div>
+
+
+
+
+
+<br><br><br><br>
+
+
+
+
+
+
+  
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
